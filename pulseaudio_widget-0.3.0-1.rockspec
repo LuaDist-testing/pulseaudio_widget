@@ -1,9 +1,17 @@
+-- This file was automatically generated for the LuaDist project.
+
 package = "pulseaudio_widget"
-version = "0.2.1-1"
+version = "0.3.0-1"
+-- LuaDist source
 source = {
-   url = "git://github.com/stefano-m/awesome-pulseaudio_widget",
-   tag = "v0.2.1"
+  tag = "0.3.0-1",
+  url = "git://github.com/LuaDist-testing/pulseaudio_widget.git"
 }
+-- Original source
+-- source = {
+--    url = "git://github.com/stefano-m/awesome-pulseaudio_widget",
+--    tag = "v0.3.0"
+-- }
 description = {
    summary = "A PulseAudio widget for the Awesome Window Manager",
    detailed = [[
@@ -17,7 +25,7 @@ supported_platforms = {
 }
 dependencies = {
    "lua >= 5.1",
-   "pulseaudio_dbus >= 0.10.0, < 0.11"
+   "pulseaudio_dbus >= 0.11.0, < 0.12"
 }
 build = {
    type = "builtin",
